@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "magus-malawi-gush",
+    "database": "mydb",
+    "host": "127.0.0.1",
+    "port": "5000",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "update me",
+    "password": "update me",
+    "database": "mydb",
+    "host": "update me",
+    "dialect": "update me"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "magus-malawi-gush",
+    "database": "mydb",
+    "host": "update me",
+    "dialect": "update me"
+  }
+}

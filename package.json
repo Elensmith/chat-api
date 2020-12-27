@@ -1,0 +1,29 @@
+{
+  "name": "chat-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Elena Kuznetsova",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "celebrate": "^13.0.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "express-handlebars": "^5.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "passport-auth0": "^1.4.0",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
